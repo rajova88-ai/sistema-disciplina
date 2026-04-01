@@ -1,0 +1,80 @@
+# ============================================================================
+# SISTEMA DE GESTIÓN DISCIPLINARIA - DEPENDENCIAS PYTHON
+# ============================================================================
+
+# WEB FRAMEWORK
+flask==2.3.2
+flask-cors==4.0.0
+flask-restful==0.3.10
+werkzeug==2.3.7
+
+# API & HTTP
+requests==2.31.0
+httpx==0.24.1
+
+# DATABASE
+sqlite3-python==1.0.0
+sqlalchemy==2.0.20
+sqlalchemy-utils==0.41.1
+
+# PDF PROCESSING
+pdfplumber==0.10.0
+PyPDF2==4.0.1
+pdf2image==1.16.3
+pillow==10.0.0
+
+# AUDIO PROCESSING
+pydub==0.25.1
+librosa==0.10.0
+soundfile==0.12.1
+
+# MACHINE LEARNING & EMBEDDINGS
+sentence-transformers==2.2.2
+scikit-learn==1.3.0
+numpy==1.24.3
+scipy==1.11.0
+torch==2.0.1
+
+# NLP & TEXT PROCESSING
+nltk==3.8.1
+spacy==3.6.0
+textblob==0.17.1
+
+# DATA PROCESSING
+pandas==2.0.3
+openpyxl==3.1.2
+
+# SECURITY & ENCRYPTION
+cryptography==41.0.0
+bcrypt==4.0.1
+PyJWT==2.8.0
+python-dotenv==1.0.0
+
+# LOGGING & MONITORING
+python-logstash==0.4.8
+structlog==23.1.0
+
+# DATABASE TOOLS
+alembic==1.12.0
+sqlalchemy-json==0.5.0
+
+# UTILITIES
+uuid==1.30
+pydantic==2.2.1
+typing-extensions==4.7.1
+click==8.1.7
+tqdm==4.66.1
+
+# DEVELOPMENT (OPTIONAL)
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.9.1
+flake8==6.1.0
+mypy==1.5.1
+
+# VECTOR DATABASES (OPTIONAL - para futuro)
+# weaviate-client==3.24.1
+# qdrant-client==2.3.0
+
+# LOCAL AI (OPCIONAL - si se usa localmente)
+# ollama==0.0.1
